@@ -1,10 +1,13 @@
-Order Processing System
-Overview
+Order Processing System:
+
+Overview:
+
 The Order Processing System is an e-commerce application built with .NET Core Web API and SQL Server. This system allows managing customers, products, and orders. It includes features such as order creation, total price calculation, and customer validation to ensure no unfulfilled orders are pending before a new order can be placed.
 
 This project demonstrates best practices in modular code, separation of concerns, and asynchronous programming.
 
 Features
+
 Customer Management: Create, retrieve, and manage customers.
 Product Management: Add, retrieve, and manage products with prices.
 Order Management: Place orders, calculate total price, and handle unfulfilled orders.
