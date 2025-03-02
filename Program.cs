@@ -13,6 +13,8 @@ namespace OrderProcessingSystem
             // Add services
             builder.Services.AddControllers();
             builder.Services.AddScoped<CustomerService>();
+            // Register ONVIF Discovery Service
+            builder.Services.AddScoped<IOnvifDiscoveryService, OnvifDiscoveryService>();
 
             // Configure database context with SQL Server
             builder.Services.AddDbContext<AppDbContext>(options =>
