@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingSystem", "OrderProcessingSystem.csproj", "{C2C27122-2C14-420E-9F37-B3CB26A2E1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement", "..\OrderManagement\OrderManagement.csproj", "{1E4E0CEA-4C76-4967-8544-9B69AC6C83C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C2C27122-2C14-420E-9F37-B3CB26A2E1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2C27122-2C14-420E-9F37-B3CB26A2E1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2C27122-2C14-420E-9F37-B3CB26A2E1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4E0CEA-4C76-4967-8544-9B69AC6C83C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4E0CEA-4C76-4967-8544-9B69AC6C83C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4E0CEA-4C76-4967-8544-9B69AC6C83C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4E0CEA-4C76-4967-8544-9B69AC6C83C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
